@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background:rgb(23, 37, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.body-info{
+    background-image: url("https://awol.junkee.com/wp-content/uploads/2017/05/NZ-Landscape-by-jacksonkuo-Flickr-Creative-Commons.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+header {
+    background:rgb(255, 167, 53);
+    color: black;
+    padding: 40px 20px;
+    
+} 
+.header-info{
+    opacity: 1;
+    background-color: rgba(58, 58, 58, 0);
+}
+
+section.middle-meny div {
+    background:rgb(72, 190, 36);
+    display:inline-block;
+    margin : auto;
+    width : 100px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+section.middle-meny-kontakt div {
+    background:rgb(34, 156, 197);
+    display:inline-block;
+    margin : auto;
+    width : 500px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+section.middle-meny{
+    background:rgb(131, 37, 168);
+    color:black;
+    padding:20px;
+    display:flex;
+}
+section.middle-meny-kontakt{
+    background:darkgray;
+    color:black;
+    padding:20px;
+    display:flex;
+
+}
+
+section.middle-meny-info{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(185, 20, 20);
+    padding:20px;
+}
+
+section.middle-meny-info div {
+    border-left: none;
+    border-style: groove;
+    border-radius: 10px;
+    width: 100%;
+    background:rgb(32, 159, 201);
+}
+section.middle-meny-info div h2{
+    position: relative;
+    left: 20px;
+}
+section.middle-meny div h2{
+    position: relative;
+    left: 20px;
+}
+section.middle-meny-kontakt div h2{
+    position: relative;
+    left:20px;
+}
+section.info-image-section{
+    height: 500px;
+    color:rgb(255, 255, 255);
+    padding:20px;
+    display:flex;
+}
+section.lower-meny{
+    background: lavender;
+    color:black;
+    padding:20px;
+}
+section.lower-meny-kontakt{
+    background: lavender;
+    color:black;
+    padding:20px;
+}
+footer {
+    padding: 10px 20px;
+}
+.info-footer{
+    background-color: rgba(58, 58, 58, 0);
+}
+ul{
+    margin :0;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
