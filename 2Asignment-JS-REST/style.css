@@ -1,0 +1,19 @@
+.veryHappy{
+    background-color: green;
+}
+
+.happy{
+    background-color: yellowgreen;
+}
+
+.neutral{
+    background-color: yellow;
+}
+
+.bad{
+    background-color: orange;
+}
+
+.veryBad{
+    background-color: red;
+}

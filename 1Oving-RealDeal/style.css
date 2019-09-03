@@ -44,3 +44,14 @@ p {
     background-repeat: no-repeat;
     background-size: 10px 10px;
 }
+
+@media (max-width: 600px){
+  .grid-container{
+    grid-template-areas:
+    'header'
+    'right'
+    'main'
+    'menu'
+    'footer';
+  }
+}
