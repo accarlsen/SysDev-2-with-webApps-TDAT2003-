@@ -1,0 +1,282 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Arial;
+}
+
+#Main-Header-Menu-Logo{
+    font-family: Arial;
+    font-size: 150%;
+}
+
+.header { grid-area: header; }
+.articlesCol1 { grid-area: articlesCol1; }
+.articlesCol2 { grid-area: articlesCol2; }
+.articlesCol3 { grid-area: articlesCol3; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'articlesCol1 articlesCol1 articlesCol2 articlesCol3'
+    'footer footer footer footer';
+  grid-gap: 0px;
+  /*background-color: rgba(190, 125, 39, 0.9);*/
+  padding: 0px;
+}
+
+.grid-container > div {
+  /*background-color: rgba(194, 122, 41, 0.9);*/
+  text-align: center;
+  font-size: 30px;
+}
+
+.header{
+  background-color: #6f2232;
+  color: white;
+  padding: 0px;
+}
+
+.footer{
+  background-color: rgb(20, 20, 20);
+  padding: 20px;
+}
+
+.articlesCol1{ padding: 20px;}
+.articlesCol2{ padding: 20px;}
+.articlesCol3{ padding: 20px;}
+
+
+.title { grid-area: title; }
+.img { grid-area: img; }
+
+.article {
+  display: grid;
+  grid-template-areas:
+    'title'
+    'img';
+  grid-gap: 0px;
+  /*background-color: rgba(190, 125, 39, 0.9);*/
+  padding: 0px;
+  /*border-style: solid;
+  border-width: 3px;*/
+}
+
+.article:hover {
+  display: grid;
+  grid-template-areas:
+    'title'
+    'img';
+  grid-gap: 0px;
+  padding: 0px;
+  /*background-color: rgb(50, 50, 50);*/
+  background-color: #6f2232;
+  color: white;
+}
+
+.title{
+  border-style: solid;
+  border-color: rgb(20, 20, 20);
+  border-width: 1px;
+}
+
+.img{
+  border-style: solid;
+  border-color: rgb(20, 20, 20);
+  border-width: 1px;
+  background-color: rgb(20, 20, 20);
+}
+
+p{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.logo { grid-area: logo; }
+.headerEmpty { grid-area: headerEmpty}
+.headergridH { grid-area: headergridH}
+
+.headergridV {
+  display: grid;
+  grid-template-areas:
+    'logo headerEmpty headerEmpty headerEmpty'
+    'logo headergridH headergridH headergridH';
+  grid-gap: 0px;
+  /*background-color: rgba(190, 125, 39, 0.9);*/
+  padding: 0px;
+  /*border-style: solid;
+  border-width: 3px;*/
+}
+
+.headergridH > a{
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+.headergridH > a:hover{
+  background-color: #6f2232;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+p1{
+  font-size: 16px;
+}
+
+h3{
+  font-size: 32px;
+}
+
+.slope { grid-area: slope; width: 100%; height: 100%;}
+.newsfeed { grid-area: newsfeed;  width: 100%; height: 100%;}
+.news { grid-area: news;  width: 100%; height: 100%;}
+.sports { grid-area: sports;  width: 100%; height: 100%;}
+.culture { grid-area: culture;  width: 100%; height: 100%;}
+.economy { grid-area: economy;  width: 100%; height: 100%;}
+.write { grid-area: write; width: 100%; height: 100%;}
+.moreOptions { grid-area: moreOptions; width: 100%; height: 100%;}
+
+.headergridH {
+  display: grid;
+  grid-template-areas:
+    'slope newsfeed news sports culture economy write moreOptions';
+  grid-gap: 0px;
+  /*background-color: rgba(190, 125, 39, 0.9);*/
+  padding: 0px;
+  /*border-style: solid;
+  border-width: 3px;*/
+}
+
+.slope {
+  background-image: url("slope.png");
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+/*Dropdown button for category________________________________________________*/
+.dropbtn {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  right: 0;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 3px 4px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #6f2232;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #6f2232;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.moreOptions{
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+
+
+/*Scrolling text____________________________________________________________________*/
+.scroll-left {
+  height: 50px;	
+  overflow: hidden;
+  position: relative;
+  border-color: white;
+  border-top-style: solid;
+ }
+
+ .scroll-left p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
+  /* Apply animation to this element */	
+  -moz-animation: scroll-left 30s linear infinite;
+  -webkit-animation: scroll-left 30s linear infinite;
+  animation: scroll-left 30s linear infinite;
+ }
+
+ /* Move it (define the animation) */
+ @-moz-keyframes scroll-left {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+ }
+
+ @-webkit-keyframes scroll-left {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+
+ @keyframes scroll-left {
+  0%   { 
+  -moz-transform: translateX(100%); /* Browser bug fix */
+  -webkit-transform: translateX(100%); /* Browser bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Browser bug fix */
+  -webkit-transform: translateX(-100%); /* Browser bug fix */
+  transform: translateX(-100%); 
+  }
+ }
