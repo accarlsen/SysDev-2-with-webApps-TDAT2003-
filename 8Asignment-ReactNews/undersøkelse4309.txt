@@ -1,0 +1,26 @@
+________________________________________
+Om deg:
+
+*Alder: 20
+*Kjønn: kvinne
+*Kulturell bakgrunn: født og oppvokst i Norge
+*Relevant utdanning og erfaringer (inkludert erfaringer med relevant teknologi): 1.år på informatikk NTNU
+*Fysiske trekk som er relevante (blind, døv osv.): ingen
+
+*Ville du vært interessert i en nettavis hvor alle kan legge ut saker?: nei
+*Hender det at du leser nyheter på nett?: ja
+*Hvilke nettsider (nettaviser) er du oftest innom?: aftenposten og VG
+*Hva forventer du av en nettavis?: oversiktlig og upartisk
+*Hvilke funksjoner ville du forventet å ha tilgjengelig for å skrive en artikkel?: skrifttype endring
+*Hvilke kategorier for artikler er du interessert i (f.eks. sport, nyheter, mat)?: mat, sladder og forbrukertester
+*Vil du helst ha mørkt eller lyst tema (Bakgrunnsfarge, ikoner ol.) på en nettside?: lys
+
+______________________________________
+Ranger hvor viktig du mener disse funksjonene er for din brukeropplevelse på nettaviser på en skala fra 1 til 5:
+
+* Kommentarfelt: 4
+* Rating av artikler: 2
+* Søkefelt: 5
+* Oversiktlig visning av de nyeste sakene: 5
+* Navigasjon: 4
+* Brukervennlig mobilversjon: 4
